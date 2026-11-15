@@ -1,0 +1,11 @@
+# macOS Finder metadata and AppleDouble forks
+.DS_Store
+._*
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+
+# Word lock files
+~$*

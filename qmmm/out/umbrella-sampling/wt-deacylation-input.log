@@ -1,0 +1,100 @@
+
+----------------------------------------------------------------------------------------------------
+  Summary of System "STRUCTION DATE:     4/17/24     15:28:17      CREATED BY USER: twymore_pruned"
+----------------------------------------------------------------------------------------------------
+----------------------------------------------- Atoms ----------------------------------------------
+Atoms                        =              13083  Free Atoms                   =               2570
+Heavy Atoms                  =               5839  Hydrogens                    =               7244
+------------------------------------------- Connectivity -------------------------------------------
+Angles                       =              19831  Atoms                        =              13083
+Bonds                        =              13196  Dihedrals                    =              21893
+Isolates                     =               1636  Ring Sets                    =               1711
+----------------------------------------- Electronic State -----------------------------------------
+Electronic Charge            =                 -2  Is Spin Restricted           =               True
+Occupancy Type               =           Cardinal  Spin Multiplicity            =                  1
+--------------------------------------------- Sequence ---------------------------------------------
+Atoms                        =              13083  Components                   =               2203
+Entities                     =                  5  Linear Polymers              =                  0
+Links                        =                  0  Variants                     =                  0
+------------------------------------------ CHARMM MM Model -----------------------------------------
+1-4 Interactions             =              21428  1-4 LJ Parameters Form       =              Amber
+1-4 LJ Parameters Types      =                 56  CMAP Dihedral Inactive       =                412
+CMAP Dihedral Parameters     =                  6  CMAP Dihedral Terms          =                566
+Electrostatic 1-4 Scaling    =              1.000  Exclusions                   =              49568
+Fourier Dihedral Inactive    =              20842  Fourier Dihedral Parameters  =                402
+Fourier Dihedral Terms       =              25609  Harmonic Angle Inactive      =              13527
+Harmonic Angle Parameters    =                191  Harmonic Angle Terms         =              16573
+Harmonic Bond Inactive       =              10694  Harmonic Bond Parameters     =                 90
+Harmonic Bond Terms          =              13196  Harmonic Improper Inactive   =               1144
+Harmonic Improper Parameters =                 18  Harmonic Improper Terms      =               1486
+LJ Parameters Form           =              Amber  LJ Parameters Types          =                 56
+Number of MM Atom Types      =                 56  Number of MM Atoms           =              13083
+Number of Other MM Atoms     =                  9  Number of Pure MM Atoms      =              12951
+Total MM Charge              =              -4.00  Urey-Bradley Inactive        =               5380
+Urey-Bradley Parameters      =                 71  Urey-Bradley Terms           =               6326
+------------------------------------------- XTB QC Model -------------------------------------------
+Accuracy for SCC             =                  1  Delete Job Files             =              False
+Fermi Temperature            =                300  Fukui Indices                =              False
+GFNn-xTB Type                =                  2
+Number of Boundary Atoms     =                  9  Number of CPUs               =                  1
+Number of Iterations         =                300  Number of QC Atoms           =                132
+Random Job                   =              False  Random Scratch               =              False
+Relative Link Atom Distance  =               True
+------------------------------------------- ORCA NB Model ------------------------------------------
+Damping Cut-Off              =              0.500  Dielectric                   =              1.000
+---------------------------------- ORCA QC/MM Electrostatic Model ----------------------------------
+Dielectric                   =              1.000  Number of BP Atoms           =                 25
+RD Approximation             =              False
+---------------------------------- Full QC/MM Lennard-Jones Model ----------------------------------
+Damping Cut-Off              =              0.500
+----------------------------------------------------------------------------------------------------
+
+Start Time: Wed Sep 17 15:24:03 2025
+{'MD_parm': {'collisionFrequency': 25.0,
+             'folder': '/home/univates',
+             'integrator': 'Verlet',
+             'logFrequency': 10,
+             'normalDeviateGenerator': None,
+             'pressure': 1.0,
+             'pressureControl': False,
+             'pressureCoupling': 2000.0,
+             'seed': 44561,
+             'simulation_type': 'Umbrella_Sampling',
+             'steps_dc': 20000,
+             'steps_eq': 10000,
+             'temperature': 300.0,
+             'temperatureControl': True,
+             'temperatureCoupling': 0.1,
+             'temperatureScaleFrequency': 100,
+             'temperatureStart': 300.0,
+             'timeStep': 0.0005,
+             'trajectory_frequency': 100,
+             'trajectory_frequency_dc_ptGeo': 100,
+             'trajectory_frequency_dc_ptRes': 1},
+ 'NmaxThreads': 30,
+ 'OPT_parm': None,
+ 'RC1': {'ATOMS': [10547, 8178],
+         'ATOM_NAMES': ['OH2', 'C2'],
+         'dincre': 0.0,
+         'dminimum': 2.707254792657567,
+         'force_constant': 2000.0,
+         'nsteps': 10,
+         'rc_type': 'simple_distance',
+         'sigma_pk1pk3': None,
+         'sigma_pk3pk1': None},
+ 'RC2': {'ATOMS': [8178, 2692],
+         'ATOM_NAMES': ['C2', 'OG'],
+         'dincre': 0.0,
+         'dminimum': 1.3249346883036726,
+         'force_constant': 2000.0,
+         'nsteps': 10,
+         'rc_type': 'simple_distance',
+         'sigma_pk1pk3': None,
+         'sigma_pk3pk1': None},
+ 'folder': '/media/univates/91bf9637-9f24-468f-8fdd-927de718334a/Bruno/QMMM/WT_QMMM/qm-mm/gfn2-xtb-trial-2/deacylation',
+ 'input_type': 1,
+ 'simulation_type': 'Umbrella_Sampling',
+ 'source_folder': '/media/univates/91bf9637-9f24-468f-8fdd-927de718334a/Bruno/QMMM/WT_QMMM/qm-mm/gfn2-xtb-trial-2/deacylation/Incomplete_matrix.ptGeo',
+ 'system': <pMolecule.System.System object at 0x7f66bba98580>,
+ 'traj_folder_name': '14-MolSys_CHARMM_XTB QC MODEL_QC123_umb_sam',
+ 'vobj': None}

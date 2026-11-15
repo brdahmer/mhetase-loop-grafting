@@ -1,0 +1,74 @@
+
+--------------------------------------------------------------------------------------------------------
+                                      Summary of System "c-mhetase"
+--------------------------------------------------------------------------------------------------------
+------------------------------------------------- Atoms ------------------------------------------------
+Atoms                        =                13166  Free Atoms                   =                 2563
+Heavy Atoms                  =                 5843  Hydrogens                    =                 7323
+--------------------------------------------- Connectivity ---------------------------------------------
+Angles                       =                19810  Atoms                        =                13166
+Bonds                        =                13269  Dihedrals                    =                21594
+Isolates                     =                 1698  Ring Sets                    =                 1787
+------------------------------------------- Electronic State -------------------------------------------
+Electronic Charge            =                   -2  Is Spin Restricted           =                 True
+Occupancy Type               =             Cardinal  Spin Multiplicity            =                    1
+----------------------------------------------- Sequence -----------------------------------------------
+Atoms                        =                13166  Components                   =                 2256
+Entities                     =                    5  Linear Polymers              =                    0
+Links                        =                    0  Variants                     =                    0
+-------------------------------------------- CHARMM MM Model -------------------------------------------
+1-4 Interactions             =                21134  1-4 LJ Parameters Form       =                Amber
+1-4 LJ Parameters Types      =                   56  CMAP Dihedral Inactive       =                  404
+CMAP Dihedral Parameters     =                    6  CMAP Dihedral Terms          =                  557
+Electrostatic 1-4 Scaling    =                1.000  Exclusions                   =                49152
+Fourier Dihedral Inactive    =                20671  Fourier Dihedral Parameters  =                  408
+Fourier Dihedral Terms       =                25293  Harmonic Angle Inactive      =                13461
+Harmonic Angle Parameters    =                  190  Harmonic Angle Terms         =                16436
+Harmonic Bond Inactive       =                10782  Harmonic Bond Parameters     =                   89
+Harmonic Bond Terms          =                13269  Harmonic Improper Inactive   =                 1129
+Harmonic Improper Parameters =                   18  Harmonic Improper Terms      =                 1462
+LJ Parameters Form           =                Amber  LJ Parameters Types          =                   56
+Number of MM Atom Types      =                   56  Number of MM Atoms           =                13166
+Number of Other MM Atoms     =                    9  Number of Pure MM Atoms      =                13027
+Total MM Charge              =                -5.00  Urey-Bradley Inactive        =                 5346
+Urey-Bradley Parameters      =                   71  Urey-Bradley Terms           =                 6236
+--------------------------------------------- ORCA QC Model --------------------------------------------
+Delete Job Files             =                False  Keywords                     = RKS B3LYP 6-311G*   
+Number of Boundary Atoms     =                    9  Number of QC Atoms           =                  139
+Random Job                   =                False  Random Scratch               =                False
+Relative Link Atom Distance  =                 True
+--------------------------------------------- ORCA NB Model --------------------------------------------
+Damping Cut-Off              =                0.500  Dielectric                   =                1.000
+------------------------------------ ORCA QC/MM Electrostatic Model ------------------------------------
+Dielectric                   =                1.000  Number of BP Atoms           =                   25
+RD Approximation             =                False
+------------------------------------ Full QC/MM Lennard-Jones Model ------------------------------------
+Damping Cut-Off              =                0.500
+--------------------------------------------------------------------------------------------------------
+
+  (i)   (j)   RC1       RC2       ENERGY(kJ/mol)
+   0     0    2.5382    1.3296    0.000000
+   1     0    2.4392    1.3299    0.337763
+   2     0    2.3404    1.3305    1.425329
+   3     0    2.2417    1.3314    3.379389
+   4     0    2.1435    1.3327    6.935708
+   5     0    2.0450    1.3346    11.383370
+   6     0    1.9482    1.3370    18.074546
+   7     0    1.8488    1.3399    25.866059
+   8     0    1.7340    1.3492    21.053503
+   9     0    1.6356    1.3526    18.008024
+  10     1    1.5367    1.4343    5.248259
+  10     2    1.5328    1.5210    6.807614
+  11     3    1.4412    1.6170    13.842940
+  11     4    1.4347    1.7174    18.286851
+  11     5    1.4312    1.8153    28.800365
+  12     6    1.3493    1.9197    39.280919
+  12     7    1.3394    2.0355    29.169194
+  12     8    1.3373    2.1336    25.133524
+  12     9    1.3354    2.2317    22.731175
+  12    10    1.3342    2.3309    19.918235
+  12    11    1.3331    2.4295    19.334692
+  12    12    1.3326    2.5286    19.648297
+  12    13    1.3325    2.6278    20.573179
+  12    14    1.3321    2.7271    22.106751
+  12    15    1.3322    2.8279    21.863623

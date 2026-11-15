@@ -1,0 +1,100 @@
+
+--------------------------------------------------------------------------------
+                          Summary of System "c-mhetase"
+--------------------------------------------------------------------------------
+------------------------------------- Atoms ------------------------------------
+Atoms                        =    13166  Free Atoms                   =     2563
+Heavy Atoms                  =     5843  Hydrogens                    =     7323
+--------------------------------- Connectivity ---------------------------------
+Angles                       =    19810  Atoms                        =    13166
+Bonds                        =    13269  Dihedrals                    =    21594
+Isolates                     =     1698  Ring Sets                    =     1787
+------------------------------- Electronic State -------------------------------
+Electronic Charge            =       -2  Is Spin Restricted           =     True
+Occupancy Type               = Cardinal  Spin Multiplicity            =        1
+----------------------------------- Sequence -----------------------------------
+Atoms                        =    13166  Components                   =     2256
+Entities                     =        5  Linear Polymers              =        0
+Links                        =        0  Variants                     =        0
+-------------------------------- CHARMM MM Model -------------------------------
+1-4 Interactions             =    21134  1-4 LJ Parameters Form       =    Amber
+1-4 LJ Parameters Types      =       56  CMAP Dihedral Inactive       =      404
+CMAP Dihedral Parameters     =        6  CMAP Dihedral Terms          =      557
+Electrostatic 1-4 Scaling    =    1.000  Exclusions                   =    49152
+Fourier Dihedral Inactive    =    20671  Fourier Dihedral Parameters  =      408
+Fourier Dihedral Terms       =    25293  Harmonic Angle Inactive      =    13461
+Harmonic Angle Parameters    =      190  Harmonic Angle Terms         =    16436
+Harmonic Bond Inactive       =    10782  Harmonic Bond Parameters     =       89
+Harmonic Bond Terms          =    13269  Harmonic Improper Inactive   =     1129
+Harmonic Improper Parameters =       18  Harmonic Improper Terms      =     1462
+LJ Parameters Form           =    Amber  LJ Parameters Types          =       56
+Number of MM Atom Types      =       56  Number of MM Atoms           =    13166
+Number of Other MM Atoms     =        9  Number of Pure MM Atoms      =    13027
+Total MM Charge              =    -5.00  Urey-Bradley Inactive        =     5346
+Urey-Bradley Parameters      =       71  Urey-Bradley Terms           =     6236
+--------------------------------- XTB QC Model ---------------------------------
+Accuracy for SCC             =        1  Delete Job Files             =    False
+Fermi Temperature            =      300  Fukui Indices                =    False
+GFNn-xTB Type                =        2
+Number of Boundary Atoms     =        9  Number of CPUs               =        1
+Number of Iterations         =      300  Number of QC Atoms           =      139
+Random Job                   =    False  Random Scratch               =    False
+Relative Link Atom Distance  =     True
+--------------------------------- ORCA NB Model --------------------------------
+Damping Cut-Off              =    0.500  Dielectric                   =    1.000
+------------------------ ORCA QC/MM Electrostatic Model ------------------------
+Dielectric                   =    1.000  Number of BP Atoms           =       25
+RD Approximation             =    False
+------------------------ Full QC/MM Lennard-Jones Model ------------------------
+Damping Cut-Off              =    0.500
+--------------------------------------------------------------------------------
+
+Start Time: Wed Nov 12 14:50:54 2025
+{'MD_parm': {'collisionFrequency': 25.0,
+             'folder': '/home/univates',
+             'integrator': 'Verlet',
+             'logFrequency': 10,
+             'normalDeviateGenerator': None,
+             'pressure': 1.0,
+             'pressureControl': False,
+             'pressureCoupling': 2000.0,
+             'seed': 44561,
+             'simulation_type': 'Umbrella_Sampling',
+             'steps_dc': 20000,
+             'steps_eq': 10000,
+             'temperature': 300.0,
+             'temperatureControl': True,
+             'temperatureCoupling': 0.1,
+             'temperatureScaleFrequency': 100,
+             'temperatureStart': 300.0,
+             'timeStep': 0.0005,
+             'trajectory_frequency': 100,
+             'trajectory_frequency_dc_ptGeo': 100,
+             'trajectory_frequency_dc_ptRes': 1},
+ 'NmaxThreads': 30,
+ 'OPT_parm': None,
+ 'RC1': {'ATOMS': [2580, 8074],
+         'ATOM_NAMES': ['OG', 'C2'],
+         'dincre': 0.0,
+         'dminimum': 2.538026732035047,
+         'force_constant': 2000.0,
+         'nsteps': 10,
+         'rc_type': 'simple_distance',
+         'sigma_pk1pk3': None,
+         'sigma_pk3pk1': None},
+ 'RC2': {'ATOMS': [8074, 8076],
+         'ATOM_NAMES': ['C2', 'O1'],
+         'dincre': 0.0,
+         'dminimum': 1.3295705057960912,
+         'force_constant': 2000.0,
+         'nsteps': 10,
+         'rc_type': 'simple_distance',
+         'sigma_pk1pk3': None,
+         'sigma_pk3pk1': None},
+ 'folder': '/media/univates/91bf9637-9f24-468f-8fdd-927de718334a/Bruno/QMMM/C_QMMM/qm-mm-trial-2/gfn2-xtb-trial-2/acylation',
+ 'input_type': 1,
+ 'simulation_type': 'Umbrella_Sampling',
+ 'source_folder': '/media/univates/91bf9637-9f24-468f-8fdd-927de718334a/Bruno/QMMM/C_QMMM/qm-mm-trial-2/gfn2-xtb-trial-2/acylation/Incomplete_matrix_acylation.ptGeo',
+ 'system': <pMolecule.System.System object at 0x7fb798cb09a0>,
+ 'traj_folder_name': '4-c-mhetase_CHARMM_XTB QC MODEL_QC130_umb_sam',
+ 'vobj': None}

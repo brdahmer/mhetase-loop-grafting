@@ -1,0 +1,33 @@
+;
+;	File 'topol_Other_chain_A2.itp' was generated
+;	By user: root (504)
+;	On host: 83-208.laufercenter.stonybrook.edu
+;	At date: Wed Sep 20 11:34:36 2023
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2023.2 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin/gmx
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /Users/brunod/Documents/Complex_CHARMM/System
+;	Command line:
+;	  gmx pdb2gmx -f mhetase.pdb -o mhetase_processed.gro
+;	Force field was read from the standard GROMACS share directory.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Other_chain_A2      3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 801 CAL rtp CAL  q +2.0
+     1        CAL    801    CAL    CAL      1          2      40.08   ; qtot 2
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Other_chain_A2.itp"
+#endif
+

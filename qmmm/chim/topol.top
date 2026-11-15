@@ -1,0 +1,63 @@
+;
+;	File 'topol.top' was generated
+;	By user: root (501)
+;	On host: Brunos-MacBook-Pro.local
+;	At date: Tue Nov 26 18:05:27 2024
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2022.2 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin/gmx
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /Users/bdahmer/Documents/MHETase/QMMM/MD_CHARMM_C_2
+;	Command line:
+;	  gmx pdb2gmx -f C-MHETase.pdb -o C-MHETase_processed.gro
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "charmm36-jul2022.ff/forcefield.itp"
+
+; Include ligand topology
+#include "mhet.prm"
+#include "mhet.itp"
+
+; Ligand position restraints
+#ifdef POSRES
+#include "posre_mhet.itp"
+#endif
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+; Include position restraint file
+#ifdef POSRES
+#include "posre_Protein_chain_A.itp"
+#endif
+#include "topol_Other_chain_A2.itp"
+
+; Include water topology
+#include "charmm36-jul2022.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "charmm36-jul2022.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Other_chain_A2      1
+MHET                1
+SOL         38781
+NA               7

@@ -1,0 +1,72 @@
+
+--------------------------------------------------------------------------------------------------------
+       Summary of System "STRUCTION DATE:     4/17/24     15:28:17      CREATED BY USER: twymore"
+--------------------------------------------------------------------------------------------------------
+------------------------------------------------- Atoms ------------------------------------------------
+Atoms                        =                13094  Free Atoms                   =                 2581
+Heavy Atoms                  =                 5844  Hydrogens                    =                 7250
+--------------------------------------------- Connectivity ---------------------------------------------
+Angles                       =                19848  Atoms                        =                13094
+Bonds                        =                13206  Dihedrals                    =                21915
+Isolates                     =                 1637  Ring Sets                    =                 1711
+------------------------------------------- Electronic State -------------------------------------------
+Electronic Charge            =                   -2  Is Spin Restricted           =                 True
+Occupancy Type               =             Cardinal  Spin Multiplicity            =                    1
+----------------------------------------------- Sequence -----------------------------------------------
+Atoms                        =                13094  Components                   =                 2204
+Entities                     =                    5  Linear Polymers              =                    0
+Links                        =                    0  Variants                     =                    0
+-------------------------------------------- CHARMM MM Model -------------------------------------------
+1-4 Interactions             =                21450  1-4 LJ Parameters Form       =                Amber
+1-4 LJ Parameters Types      =                   56  CMAP Dihedral Inactive       =                  412
+CMAP Dihedral Parameters     =                    6  CMAP Dihedral Terms          =                  566
+Electrostatic 1-4 Scaling    =                1.000  Exclusions                   =                49617
+Fourier Dihedral Inactive    =                20871  Fourier Dihedral Parameters  =                  402
+Fourier Dihedral Terms       =                25638  Harmonic Angle Inactive      =                13543
+Harmonic Angle Parameters    =                  191  Harmonic Angle Terms         =                16590
+Harmonic Bond Inactive       =                10701  Harmonic Bond Parameters     =                   90
+Harmonic Bond Terms          =                13206  Harmonic Improper Inactive   =                 1145
+Harmonic Improper Parameters =                   18  Harmonic Improper Terms      =                 1487
+LJ Parameters Form           =                Amber  LJ Parameters Types          =                   56
+Number of MM Atom Types      =                   56  Number of MM Atoms           =                13094
+Number of Other MM Atoms     =                    9  Number of Pure MM Atoms      =                12955
+Total MM Charge              =                -3.00  Urey-Bradley Inactive        =                 5389
+Urey-Bradley Parameters      =                   71  Urey-Bradley Terms           =                 6335
+--------------------------------------------- ORCA QC Model --------------------------------------------
+Delete Job Files             =                False  Keywords                     = RKS B3LYP 6-311G*   
+Number of Boundary Atoms     =                    9  Number of QC Atoms           =                  139
+Random Job                   =                False  Random Scratch               =                False
+Relative Link Atom Distance  =                 True
+--------------------------------------------- ORCA NB Model --------------------------------------------
+Damping Cut-Off              =                0.500  Dielectric                   =                1.000
+------------------------------------ ORCA QC/MM Electrostatic Model ------------------------------------
+Dielectric                   =                1.000  Number of BP Atoms           =                   25
+RD Approximation             =                False
+------------------------------------ Full QC/MM Lennard-Jones Model ------------------------------------
+Damping Cut-Off              =                0.500
+--------------------------------------------------------------------------------------------------------
+
+  (i)   (j)   RC1       RC2       ENERGY(kJ/mol)
+   0     0    2.5319    1.3320    0.000000
+   1     0    2.4330    1.3326    3.554760
+   2     0    2.3346    1.3330    10.576212
+   3     0    2.2360    1.3339    19.887465
+   4     1    2.1367    1.4122    35.688638
+   5     1    2.0389    1.4138    47.208121
+   6     1    1.9397    1.4165    57.953196
+   7     1    1.8417    1.4197    73.033863
+   8     1    1.7423    1.4234    91.777823
+   9     2    1.6226    1.5189    102.255643
+  10     3    1.5240    1.6146    110.807162
+  10     4    1.5215    1.7111    122.106748
+  10     5    1.5185    1.8097    133.370700
+  10     6    1.5160    1.9086    145.141940
+  11     7    1.4145    2.0371    92.807968
+  11     8    1.4127    2.1348    84.373098
+  12     9    1.3339    2.2350    71.657206
+  12    10    1.3332    2.3328    66.114358
+  12    11    1.3320    2.4323    59.730319
+  12    12    1.3314    2.5315    57.702576
+  12    13    1.3313    2.6313    56.447905
+  12    14    1.3309    2.7309    55.758400
+  12    15    1.3307    2.8309    54.607599

@@ -1,0 +1,33 @@
+;
+;	File 'topol_Ion_chain_A2.itp' was generated
+;	By user: luistimmers (1000)
+;	On host: CONV1214-DESK
+;	At date: Wed May 17 10:34:36 2023
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2022.2 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin/gmx
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /media/luistimmers/c0bba592-b146-4528-99cd-411158e9abc81/Bruno/MHETase/MD/MHETase_303K
+;	Command line:
+;	  gmx pdb2gmx -ff amber99sb-ildn -f mhetase.pdb -o mhetase_processed.gro -p topol.top -water tip3p -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion_chain_A2        3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 801 CA  rtp CA   q +2.0
+     1         C0    801     CA     CA      1          2      40.08   ; qtot 2
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion_chain_A2.itp"
+#endif
+
